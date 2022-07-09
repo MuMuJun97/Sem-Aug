@@ -6,4 +6,12 @@ This is the code for "Sem-Aug: Improving Camera-LiDAR Feature Fusion with Semant
 
 
 ### 2D Segmentation Auto-Labeling
-The 3D car model is available at `data/models`
+The 3D car model is available at `data/models`.
+
+
+### semantic segmentation 
+modified from [NVIDIA Semantic Segmentation](https://github.com/NVIDIA/semantic-segmentation).
+
+
+### 3D vehicle detection
+modified from [CIA-SSD](https://github.com/Vegeta2020/CIA-SSD).
