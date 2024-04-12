@@ -41,7 +41,7 @@ class KittiObject(torch_data.Dataset):
         return obj_pts
 
 if __name__ == '__main__':
-    dbinfo_file = "/home/zlin/3dcv/openpcd/data/kitti/infos/ct3d/kitti_dbinfos_trainval.pkl"
+    dbinfo_file = "kitti_dbinfos_trainval.pkl"
 
     root_path = "/home/zlin/3dcv/openpcd/data/kitti"
 
@@ -52,7 +52,7 @@ if __name__ == '__main__':
         'class_name': 'Cyclist'
     }
 
-    cls_file = "/home/zlin/3dcv/openpcd/data/kitti/infos/ct3d/model/{}_model.bin".format(
+    cls_file = "{}_model.bin".format(
         dataset_cfg['class_name'])
 
     dataset = KittiObject(dataset_cfg=dataset_cfg)

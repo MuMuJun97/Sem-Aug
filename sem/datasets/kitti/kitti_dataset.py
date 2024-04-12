@@ -457,9 +457,9 @@ def create_kitti_infos(dataset_cfg, class_names, data_path, save_path, workers=4
 if __name__ == '__main__':
 
 
-    cfg_file = "/home/zhaolin/research/CT3D/tools/cfgs/dataset_configs/kitti_dataset.yaml"
+    cfg_file = "kitti_dataset.yaml"
     data_dir = "/home/zhaolin/zhaolin/openpcd/kitti"
-    save_dir = "/home/zhaolin/zhaolin/openpcd/kitti/infos/ct3d"
+    save_dir = "/home/zhaolin/zhaolin/openpcd/kitti/infos/"
 
     dataset_cfg = EasyDict(yaml.load(open(cfg_file)))
     ROOT_DIR = (Path(__file__).resolve().parent / '../../../').resolve()

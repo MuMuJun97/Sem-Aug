@@ -689,7 +689,7 @@ if __name__ == '__main__':
 
     cfg_file = "/home/zlin/research/transformer/tf3d/tools/cfgs/dataset_configs/kitti_database.yaml"
     data_dir = "/home/zlin/3dcv/openpcd/data/kitti"
-    save_dir = "/home/zlin/3dcv/openpcd/data/kitti/infos/ct3d"
+    save_dir = "/home/zlin/3dcv/openpcd/data/kitti/infos/"
 
     dataset_cfg = EasyDict(yaml.load(open(cfg_file), Loader=yaml.FullLoader))
     ROOT_DIR = (Path(__file__).resolve().parent / '../../../').resolve()

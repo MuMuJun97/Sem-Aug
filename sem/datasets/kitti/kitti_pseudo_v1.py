@@ -641,7 +641,7 @@ if __name__ == '__main__':
 
     cfg_file = "/home/zlin/research/transformer/tf3d/app/cfgs/debug/pseudo_rpn_v1.yaml"
     data_dir = "/home/zlin/3dcv/openpcd/data/kitti"
-    save_dir = "/home/zlin/3dcv/openpcd/data/kitti/infos/ct3d"
+    save_dir = "/home/zlin/3dcv/openpcd/data/kitti/infos/"
 
     # vis = Visualization()
 
